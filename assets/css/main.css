@@ -1776,6 +1776,29 @@ body.is-preload #header .content .inner {
 	}
 }
 
+.about-images {
+margin-left: 10px;
+            width: 250px;
+            height: 250px;
+            border-radius: 30px;
+            justify-content:space-between;
+            padding:5px;
+
+}
+
+@media(max-width:375px){
+	.about-images {
+		background: linear-gradient(aqua, #507e94);
+		margin-left: 25px;
+		border-radius: 20px;;
+		font-family: serif;
+		padding:2px;
+		margin-bottom: 5px;
+		
+	}
+}
+
+
 
 
 
