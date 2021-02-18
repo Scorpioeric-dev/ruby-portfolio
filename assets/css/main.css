@@ -244,7 +244,7 @@ a {
     border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
     border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+  
   text-decoration: none;
   color: inherit;
 }
@@ -1601,8 +1601,14 @@ body.is-preload #header .content .inner {
     width: 50vw;
     border: 1.5px solid white;
     margin-bottom: 20px;
+	transition: transform 100ms;
   }
 }
+
+#header .content > img:hover {
+	transform: scale(1.05);
+}
+
 
 @media screen and (max-width: 480px) {
   #header {
@@ -1682,9 +1688,9 @@ body.is-preload #header .content .inner {
   transform: translateY(0.25rem);
   -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
   -webkit-transition: opacity 0.325s ease-in-out,
-    -webkit-transform 0.325s ease-in-out;
+    -webkit-transform 0.325s ease-in-out; 
   -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
-  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
   padding: 4.5rem 2.5rem 2.5rem 2.5rem;
   margin-left: 10px;
   position: relative;
@@ -1708,12 +1714,13 @@ body.is-preload #header .content .inner {
   position: absolute;
   top: 0;
   right: 0;
-  width: 4rem;
+  width: 4rem; 
   height: 4rem;
-  cursor: pointer;
-  text-indent: 4rem;
-  overflow: hidden;
-  white-space: nowrap;
+  cursor: pointer; 
+   text-indent: 4rem; 
+  overflow: hidden; 
+   white-space: nowrap;
+   
 }
 
 #main article .work > img {
@@ -1734,7 +1741,13 @@ body.is-preload #header .content .inner {
   
   border: 2px solid aqua;
   margin-bottom: 10px;
+  transition: transform 100ms;
 }
+
+.images:hover{
+	transform: scale(1.05);
+  }
+
 
 @media (max-width: 375px) {
   .images {
@@ -1745,16 +1758,24 @@ body.is-preload #header .content .inner {
 }
 
 .work-images {
-	 margin-left: 75px;
+	 margin-left: 95px;
 	width: 250px;
 	height: 250px;
 	border-radius: 30px;
 	justify-content:space-between;
-	padding:5px;
+	margin-bottom: 5px;
+	border:1px solid aqua;
+	transition: transform 100ms;
 	
   
 
 }
+
+.work-images:hover{
+	transform: scale(1.05);
+	
+}
+
 @media(max-width:375px){
 	.work-images {
 		margin-left: 30px;
@@ -1783,8 +1804,14 @@ margin-left: 10px;
             border-radius: 30px;
             justify-content:space-between;
             padding:5px;
+			transition: transform 100ms;
 
 }
+
+.about-images:hover{
+	transform: scale(1.05);
+}
+
 
 @media(max-width:375px){
 	.about-images {
