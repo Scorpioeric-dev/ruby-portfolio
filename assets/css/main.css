@@ -1749,13 +1749,17 @@ body.is-preload #header .content .inner {
   }
 
 
-@media (max-width: 375px) {
+ 
+
+@media (max-width: 414px) {
   .images {
-    margin-left: 0.5px;
+    margin-left: 20px;
     width: 300px;
     height: 300px;
   }
 }
+
+
 
 .work-images {
 	 margin-left: 95px;
@@ -1776,9 +1780,9 @@ body.is-preload #header .content .inner {
 	
 }
 
-@media(max-width:375px){
+@media(max-width:414px){
 	.work-images {
-		margin-left: 30px;
+		margin-left: 50px;
 }
 }
 
@@ -1787,7 +1791,7 @@ body.is-preload #header .content .inner {
 	text-align: center;
 }
 
-@media(max-width:375px){
+@media(max-width:414px){
 	#head {
 		background: linear-gradient(#574646, #7d83c3);
 		font-size: 20px;
@@ -1813,10 +1817,10 @@ margin-left: 10px;
 }
 
 
-@media(max-width:375px){
+@media(max-width:414px){
 	.about-images {
 		background: linear-gradient(aqua, #507e94);
-		margin-left: 25px;
+		margin-left: 50px;
 		border-radius: 20px;;
 		font-family: serif;
 		padding:2px;
