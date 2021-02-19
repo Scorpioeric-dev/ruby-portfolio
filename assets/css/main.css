@@ -1739,7 +1739,7 @@ body.is-preload #header .content .inner {
   width: 350px;
   height: 350px;
   border-radius: 30px;
-  
+ 
   border: 2px solid aqua;
   margin-bottom: 10px;
   transition: transform 100ms;
@@ -1749,7 +1749,7 @@ body.is-preload #header .content .inner {
 	transform: scale(1.05);
   }
 
-  
+ 
 
 
 @media (max-width: 768px) {
@@ -1757,6 +1757,7 @@ body.is-preload #header .content .inner {
 	  margin-left: 70px;
 	  width: 200px;
 	  height: 200px;
+	  
 	}
   }
 
