@@ -1760,20 +1760,48 @@ body.is-preload #header .content .inner {
 	  
 	}
   }
+  
+@media(max-width:414px){
+	.images {
+		margin-left: 70px;
+}
+}
+
+@media(max-width:375px){
+	.images {
+		margin-left: 50px;
+}
+}
+
+@media(max-width:320px){
+	.images {
+		margin-left: 25px;
+}
+}
+
 
 
 /*Work Images*/
 
 
 .work-images {
-	 margin-left: 95px;
+	 /* margin-left: 95px;
 	width: 250px;
 	height: 250px;
 	border-radius: 30px;
 	justify-content:space-between;
 	margin-bottom: 5px;
 	border:1px solid aqua;
-	transition: transform 100ms;
+	transition: transform 100ms; */
+
+	margin-left: 10px;
+            width: 250px;
+            height: 250px;
+            border-radius: 30px;
+			border: .5px solid aqua;
+            justify-content:space-between;
+            margin-bottom: 5px;
+			transition: transform 100ms;
 	
   
 
@@ -1795,6 +1823,19 @@ body.is-preload #header .content .inner {
 }
 }
 
+@media(max-width:375px){
+	.work-images {
+		margin-left: 25px;
+}
+}
+
+@media(max-width:320px){
+	.work-images {
+		margin-left: 4px;
+}
+}
+
+
 /* Header on Work page*/
 
 #head {
@@ -1809,7 +1850,7 @@ body.is-preload #header .content .inner {
 
 @media(max-width:414px){
 	#head {
-		background: linear-gradient(#574646, #7d83c3);
+		
 		font-size: 10px;
 		border-radius: 20px;;
 		font-family: serif;
@@ -1818,7 +1859,7 @@ body.is-preload #header .content .inner {
 }
 @media(max-width:768px){
 	#head {
-		background: linear-gradient(#574646, #7d83c3);
+		
 		font-size: 30px;
 		border-radius: 20px;;
 		font-family: serif;
@@ -1833,8 +1874,10 @@ margin-left: 10px;
             width: 250px;
             height: 250px;
             border-radius: 30px;
+			border: .5px solid aqua;
             justify-content:space-between;
-            padding:5px;
+            margin-bottom: 5px;
+            
 			transition: transform 100ms;
 
 }
@@ -1845,39 +1888,43 @@ margin-left: 10px;
 
 @media(max-width:768px){
 	.about-images {
-		
+		border: .5px solid aqua;
 		margin-left: 40px;
 		border-radius: 20px;;
 		font-family: serif;
-		padding:2px;
+		
 		margin-bottom: 5px;
 		
 	}
 }
 @media(max-width:414px){
 	.about-images {
-		background: linear-gradient(aqua, #507e94);
+		border: .5px solid aqua;
 		margin-left: 50px;
 		border-radius: 20px;;
 		font-family: serif;
-		padding:2px;
+		
 		margin-bottom: 5px;
 		
 	}
 }
 @media(max-width:375px){
 	.about-images {
-		background: linear-gradient(aqua, #507e94);
+		
 		margin-left: 30px;
 		border-radius: 20px;;
 		font-family: serif;
-		padding:2px;
+		
 		margin-bottom: 5px;
 		
 	}
 }
 
-
+@media(max-width:320px){
+	.about-images {
+		margin-left: 3.8px;
+}
+}
 
 
 
